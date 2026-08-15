@@ -1,0 +1,128 @@
+/* CSS embutido para facilitar visualização */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #ffffff;
+  color: #1a1446;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1a1446;
+  height: 85.99px;
+}
+
+.logo-img {
+  max-height: 70px;
+}
+
+.container-login {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.caixa-login {
+  background-color: #ffffff;
+  border: 2px solid #1a1446;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.campo-login {
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #1a1446;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+.btncadastro {
+  background-color: #1a1446;
+  color: #ffffff;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: none;
+  width: 100%;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: 0.5px solid #1a1446;
+}
+
+.btncadastro:hover {
+  background-color: #ffffff;
+  color: #1a1446;
+  border: 0.5px solid #1a1446;
+}
+
+footer {
+    width: 100%;
+}
+
+footer.footer-site {
+
+  background-color: #1a1446;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.link-footer {
+  color: #1a1446;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.link-footer:hover {
+  text-decoration: #bcb1ff;
+}
+
+.pe-do-site {
+  color: #ffffff;
+}
+
+.pe-do-site:hover {
+  color: #5e689b;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #5e689b;
+}
+
+.header {
+  max-height: 100px;
+}
+
+@media (max-width: 1000px) {
+.navbar-toggler {
+
+    background-color: #ffffff;
+    border-color: #1a1446;
+
+}
+
+.nav-link {
+  background-color: rgb(26, 20, 70, 0.5);
+  width: 150px;
+  padding-left: 10px;
+}
+
+.caixa-login{
+  height: auto;
+  width: auto;
+}
+}

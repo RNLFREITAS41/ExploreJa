@@ -1,0 +1,52 @@
+body {
+  background-color: #ffffff;
+  color: #1a1446;
+}
+
+header {
+  background-color: #1a1446;
+  max-height: 80px;
+}
+
+.logo-img {
+  max-height: 70px;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #6b57E1;
+}
+
+.footer-site {
+  background-color: #1a1446;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.link-footer {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+.navbar-toggler {
+
+    background-color: #ffffff;
+    border-color: #1a1446;
+
+}
+
+.nav-link {
+  background-color: rgb(26, 20, 70, 0.5);
+  width: 150px;
+  padding-left: 10px;
+}
+}

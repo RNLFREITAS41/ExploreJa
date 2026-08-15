@@ -1,0 +1,160 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.tela-dividida {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #1a1446;
+  max-height: 100px;
+}
+
+.logo-img {
+  max-height: 70px;
+}
+
+.icone-personalizado {
+  color: #1a1446;
+}
+
+.fundo-background {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.caixa-cadastro {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border: 2px solid #1a1446;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  padding: 30px 70px;
+  border-radius: 12px;
+  color: #1a1446;
+  margin: 0 auto;
+  margin-top: 55px ;
+  margin-bottom: 55px;
+}
+
+.titulo-modal {
+  display: inline-block;
+  color: #1a1446;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+
+.campo-cadastro {
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #1a1446;
+  background-color: #ffffff;
+  color: #1a1446;
+}
+
+.campo-cadastro::placeholder {
+  color: #ddd;
+}
+
+.btncadastro {
+  background-color: #1a1446;
+  color: #fff;
+  padding: 14px 24px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  border: 0.5px solid #1a1446;
+}
+
+.btncadastro:hover {
+  background-color: #ffffff;
+  color: #1a1446;
+  border: 0.5px solid #1a1446;
+}
+
+.btn-personalizado {
+  background-color: #1a1446;
+  color: #ffffff;
+  border: 0.5px solid #1a1446;
+  font-weight: normal;
+  transition: all 0.3s ease;
+}
+
+.btn-personalizado:hover {
+  color: #5e689b;
+  border-color: #1a1446;
+}
+
+
+.footer-site {
+  background-color: #1a1446;
+  color: #ffffff;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.link-footer {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .caixa-cadastro {
+    padding: 20px;
+  }
+
+  .titulo-modal {
+    font-size: 1.1rem;
+  }
+
+  .btncadastro {
+    font-size: 1rem;
+    padding: 12px 20px;
+  }
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #5e689b;;
+}
+
+
+@media (max-width: 1000px) {
+.navbar-toggler {
+
+    background-color: #ffffff;
+    border-color: #1a1446;
+
+}
+
+.nav-link {
+  background-color: rgb(26, 20, 70, 0.5);
+  width: 150px;
+  padding-left: 10px;
+}
+}

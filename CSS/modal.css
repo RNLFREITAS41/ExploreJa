@@ -1,0 +1,141 @@
+
+
+.modal-dialog{
+    max-width: 350px;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  color: #fff;
+  border: 2px solid #1a1446;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  padding: 30px;
+  min-height: 350px;
+  border-radius: 10px;
+}
+
+.modal-header {
+  color: #1a1446;
+}
+
+.titulo-modal {
+  display: inline-block;
+  padding: 6px 12px;   
+  background-color: transparent;
+  color: #1a1446;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+
+.btnlogin, .btncadastro{
+  background-color: #1a1446;
+  color: #fff;
+  padding: 14px 24px;
+  font-size: 1.1rem; 
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+
+.btn-outline-light:hover {
+  background-color: #1a1446;
+  color: #1a1446;
+}
+
+@media (max-width: 1000px) {
+.navbar-toggler {
+
+    background-color: #ffffff;
+    border-color: #1a1446;
+
+}
+
+.nav-link {
+  background-color: rgb(26, 20, 70, 0.5);
+  width: 150px;
+  padding-left: 10px;
+}
+
+.modal-content {
+    width: 90vw;
+    max-width: 350px;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.modal {
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+}
+
+@media (max-width: 576px) {
+    
+    .modal {
+        height: 100vh !important; 
+        min-height: 100vh !important;
+        display: flex !important;
+        align-items: center !important; 
+        justify-content: center !important;
+        
+    }
+
+    .modal-dialog {
+        margin: 0 !important; 
+        max-width: 90vw;
+    }
+
+    .modal-content {
+        width: 90vw;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        margin: 0; 
+        padding: 1.5rem; 
+    }
+}
+
+header{
+    background-color: #1a1446;
+    max-height: 80px;
+
+}
+
+.logo-img {
+  max-height: 70px;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #5e689b;;
+}
+
+.navbar-nav{
+   --bs-nav-link-hover-color:rgb(255, 255, 255);
+   background-color: #1a1446 0.5;
+
+}
+
+
+.form-select:focus{
+    border-color:#1a1446;
+    outline:0;
+    box-shadow:0 0 0 .25rem rgba(26,20,70, .25);
+    
+}

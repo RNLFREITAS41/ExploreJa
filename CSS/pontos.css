@@ -1,0 +1,241 @@
+body{
+    background-color: #ffffff;
+    padding-top: 0;
+    color: #1a1446;
+}
+
+
+.logo-img {
+    max-height: 70px;
+  }
+
+  .filtro-bar a.btn {
+    background-color: #1a1446;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 5px;  
+    width: auto; 
+    max-width: none;
+    flex-wrap: wrap;
+}
+
+  .filtro-bar .active {
+    background-color: #ffffff;
+    color: white;
+  }
+
+  .pontos-turistas {
+    background-color: #1a1446;
+    border: 1px solid #ddd;
+    color: #ffffff;
+  }
+  
+
+  .navbar-brand {
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #434343;
+}
+
+.footer-site {
+    background-color: #1a1446;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-site p {
+    margin: 0;
+}
+
+.link-footer {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+}
+
+.card-body {
+    background-color: #1a1446;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card-title {
+    color: #ffffff;
+    text-align: center;
+}
+
+.divimagem{
+    background-color: transparent;
+    padding-top: 90px; 
+    color: #ffffff;
+    
+}
+
+.form-select:focus{
+    border-color:#1a1446;
+    outline:0;
+    box-shadow:0 0 0 .25rem rgba(26,20,70, .25);
+    
+}
+
+.btn-outline-primary {
+    background-color:#1a1446;
+    color: #ffffff;
+    border:0px;
+}
+
+.btn-outline-primary:hover {
+    background-color:#ffffff;
+    color: #ffffff;
+    border: 0.5px solid #1a1446;
+
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color:#ffffff var(--bs-btn-active-color);
+    background-color:#5e689b var(--bs-btn-active-bg);
+    border-color:#1a1446(--bs-btn-active-border-color);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #ffffff;
+    --bs-btn-border-color: #1a1446;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-border-color: #1a1446;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1a1446;
+    --bs-btn-active-border-color: #ffffff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ffffff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #1a1446;
+    --bs-gradient: none;
+}
+
+.p-3 {
+
+    background-color: rgb(224, 225, 227);
+
+}
+
+@media (max-width: 950px) {
+.navbar-toggler {
+
+    background-color: #ffffff;
+    border-color: #1a1446;
+
+}
+
+.nav-link {
+  background-color: rgb(26, 20, 70, 0.5);
+  width: 150px;
+  padding-left: 10px;
+}
+}
+
+@media (max-width: 1000px) {
+.header {
+  height: 79.99px;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    min-width: 0%;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+}
+
+@media (max-width: 576px) {
+    .header {
+  height: 79.99px;
+}
+
+    .col-12 {
+    flex: 0 0 auto;
+    width: 70%;
+}
+
+}
+
+@media (max-width: 768px) {
+    .header {
+  height: 79.99px;
+}
+
+    .lista-pontos .row > .col-12 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .filtro-bar a.btn {
+        width: auto !important; 
+        max-width: none !important; 
+        white-space: nowrap !important;
+        margin: 5px; 
+    }
+
+    .md-4 {
+        flex-direction: column;
+    }
+}
+
+.filtro-bar a.btn {
+    white-space: nowrap; 
+    margin: 5px;
+    border-radius: 20px;
+}
+
+header {
+    background-color: #1a1446;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border-radius: 15px; 
+    overflow: hidden;
+    border: none;
+}
+
+
+.card-img-overlay-custom {
+    width: 100%;
+    height: 250px; 
+}
+
+.main {
+    display: flex;
+}
+
+.divclaro {
+    background-color: #ffffff;
+    min-height: 2px;
+    padding: 15px;
+    border-bottom: 2px solid #ffffff;
+}
